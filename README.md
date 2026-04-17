@@ -1,14 +1,14 @@
 # ¡Hola! / Hi! I'm Cristóbal 👋
 
 🇪🇸 **Español**
-Soy un desarrollador de Quito, Ecuador. Me encanta trabajar en soluciones open source y crear herramientas útiles, como mis plugins para MantisBT y extensiones para NetSuite. 
+Soy un desarrollador de Quito, Ecuador. Me gusta trabajar en soluciones open source y crear herramientas útiles, como mis plugins para MantisBT, extensiones y scripts para NetSuite y otras herramientas. 
 
 Si mi trabajo te ha servido en tu día a día y quieres apoyar lo que hago, ¡te lo agradezco muchísimo! 👇
 
 ---
 
 🇬🇧 **English**
-I'm a developer from Quito, Ecuador. I love working on open-source solutions and creating useful tools, like my plugins for MantisBT and extensions for NetSuite. 
+I'm a developer from Quito, Ecuador. I love working on open-source solutions and creating useful tools, like my plugins for MantisBT, extensions and scripts for NetSuite and some other tools. 
 
 If my work has helped you in your daily tasks and you'd like to support what I do, I'd really appreciate it! 👇
 
