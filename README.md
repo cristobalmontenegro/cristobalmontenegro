@@ -17,3 +17,5 @@ If my work has helped you in your daily tasks and you'd like to support what I d
 <a href="https://ko-fi.com/cristobalmontenegro" target="_blank" id="support-button">
   <img height="36" style="border:0px;height:36px;" src="https://storage.ko-fi.com/cdn/kofi6.png?v=6" border="0" alt="Buy Me a Coffee at ko-fi.com" />
 </a>
+
+<meta name="google-site-verification" content="IHHqRg-yt7K-NvhsAk2NEfonN49Ypb2DZpWoKYgNyQ8" />
