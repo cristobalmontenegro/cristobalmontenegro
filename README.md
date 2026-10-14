@@ -17,15 +17,15 @@
 
 ## 🇪🇸 Español
 
-Soy desarrollador de software en **Quito, Ecuador**. Me apasiona el **open source** y crear herramientas que resuelvan problemas reales: plugins para **MantisBT**, scripts y módulos para **NetSuite (SuiteScript 2.1)**, utilidades de administración para Windows y Linux, migradores de sitios y sistemas de reportería.
+Les comparto algunas de mis herramientas que resuelvan problemas reales: plugins para **MantisBT**, scripts y módulos para **NetSuite (SuiteScript 2.1)**, utilidades de administración para Windows y Linux, migradores de sitios y sistemas de reportería.
 
-La mayoría de mis proyectos están documentados en **español e inglés** y publicados en este perfil. Abajo encontrarás un **índice completo** de todo lo que he publicado, con un resumen y un enlace directo a cada repositorio y subproyecto.
+La mayoría de los proyectos están documentados en **español e inglés** y publicados en este perfil. Abajo encontrarás un **índice completo** de todo lo que he publicado, con un resumen y un enlace directo a cada repositorio y subproyecto.
 
 Si alguno de mis proyectos te ha servido en tu día a día y quieres apoyar lo que hago, ¡te lo agradezco muchísimo! 👇
 
 ## 🇬🇧 English
 
-I'm a software developer from **Quito, Ecuador**. I'm passionate about **open source** and building tools that solve real problems: plugins for **MantisBT**, **NetSuite** scripts and modules (SuiteScript 2.1), Windows and Linux administration utilities, website migrators, and reporting systems.
+I share with you some of my tools that solve real problems: plugins for **MantisBT**, **NetSuite** scripts and modules (SuiteScript 2.1), Windows and Linux administration utilities, website migrators, and reporting systems.
 
 Most of my projects are documented in **both Spanish and English** and are published on this profile. Below you'll find a **complete index** of everything I've published, with a summary and a direct link to each repository and subproject.
 
