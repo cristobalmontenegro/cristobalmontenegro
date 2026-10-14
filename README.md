@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/cristobalmontenegro?tab=repositories"><img alt="Repositorios" src="https://img.shields.io/badge/Repositorios-10-181717?style=flat&logo=github"></a>
+  <a href="https://github.com/cristobalmontenegro?tab=repositories"><img alt="Repositorios" src="https://img.shields.io/badge/Repositorios-12-181717?style=flat&logo=github"></a>
   <img alt="MantisBT" src="https://img.shields.io/badge/MantisBT-Plugins-8DB93E?style=flat">
   <img alt="NetSuite" src="https://img.shields.io/badge/NetSuite-SuiteScript%202.1-1F6FEB?style=flat">
   <img alt="PHP" src="https://img.shields.io/badge/PHP-7.4%2B-777BB4?style=flat&logo=php&logoColor=white">
@@ -51,7 +51,8 @@ If any of my projects has helped you in your daily work and you'd like to suppor
 | 4 | [🇪🇨 Dimm-Linux](#-dimm-linux) | DIMM del SRI de Ecuador corriendo en Linux moderno |
 | 5 | [📊 WebReporter](#-webreporter) | Sistema de reportería y dashboards en PHP + MySQL |
 | 6 | [🌐 WordPress-Migrator](#-wordpress-migrator) | Migrador interactivo de WordPress entre dominios y hostings |
-| 7 | [🔱 Forks y contribuciones](#-forks-y-contribuciones--forks--contributions) | Mejoras a proyectos de terceros |
+| 7 | [🧩 Apps y utilidades](#apps-utilidades) | Firmador portable, gestor de música MP3 y juegos HTML |
+| 8 | [🔱 Forks y contribuciones](#-forks-y-contribuciones--forks--contributions) | Mejoras a proyectos de terceros |
 
 ---
 
@@ -146,6 +147,33 @@ If any of my projects has helped you in your daily work and you'd like to suppor
 **ES:** Asistente interactivo para migrar sitios WordPress entre dominios y hostings. Reemplaza URLs respetando la serialización de PHP (Elementor y plugins complejos), evita bloqueos de hostings restringidos mediante túnel PHP/SFTP, soporta reanudación y actualiza `wp-config.php` automáticamente.
 
 **EN:** An interactive assistant to migrate WordPress sites between domains and hosts. It replaces URLs safely (serialization-aware), bypasses restricted-hosting blocks with a PHP/SFTP tunnel, supports resume and updates `wp-config.php` automatically.
+
+---
+
+<a id="apps-utilidades"></a>
+## 🧩 Apps y utilidades / Apps & Utilities
+
+**ES:** Aplicaciones y utilidades independientes, listas para usar.
+
+**EN:** Standalone, ready-to-use apps and utilities.
+
+### ✍️ [FirmaEcmc](https://github.com/cristobalmontenegro/FirmaEcmc) — *Java 8 · Windows / Linux / macOS*
+
+**ES:** Paquete **portable** del firmador de documentos electrónicos de Ecuador (FirmaEC) con **JRE embebido** y lanzadores para Windows y Linux/macOS, para firmar **sin instalar Java**. Es un fork y reempaquetado del firmador original, con crédito a su autor.
+
+**EN:** A **portable** package of Ecuador's electronic document signer (FirmaEC) with an **embedded JRE** and launchers for Windows and Linux/macOS, so you can sign **without installing Java**. A fork/repackaging of the original signer, crediting its author.
+
+### 🎵 [music-manager](https://github.com/cristobalmontenegro/music-manager) — *Bash · Python*
+
+**ES:** Suite de scripts para **descargar, organizar, renombrar y depurar** tu biblioteca musical MP3 desde Spotify. Incluye detección perceptual de duplicados (Chromaprint/AcoustID), metadatos con `eyeD3` y menú interactivo.
+
+**EN:** A Bash/Python suite to **download, organize, rename and clean up** your MP3 music library from Spotify. Includes perceptual duplicate detection (Chromaprint/AcoustID), `eyeD3` tag handling and an interactive menu.
+
+### 🎮 [JuegosHTML](https://github.com/cristobalmontenegro/JuegosHTML) — *HTML5 · CSS3 · JavaScript*
+
+**ES:** Colección de juegos clásicos en HTML/CSS/JS puro que corren directo en el navegador: Space Invaders, Moon Patrol, Tetris, Nonogramas, FreeCell, Sumplete y Pixel Flow.
+
+**EN:** A collection of classic games in plain HTML/CSS/JS that run straight in the browser: Space Invaders, Moon Patrol, Tetris, Nonograms, FreeCell, Sumplete and Pixel Flow.
 
 ---
 
