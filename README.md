@@ -97,6 +97,14 @@ If any of my projects has helped you in your daily work and you'd like to suppor
 | [**Fichas_PDF**](https://github.com/cristobalmontenegro/Netsuite/tree/main/Fichas_PDF) | Suitelet | Fichas técnicas 360° de Artículos y Clientes en PDF. / 360° Item & Customer PDF data sheets. |
 | [**Inventory_Utilities**](https://github.com/cristobalmontenegro/Netsuite/tree/main/Inventory_Utilities) | Suitelet | Herramientas de mantenimiento, p. ej. corrección de lotes negativos. / Maintenance tools, e.g. negative lot correction. |
 
+### 🧩 Herramienta relacionada / Related tool
+
+**ES:** Extensión de navegador para trabajar con NetSuite (fork con mejoras sobre el proyecto original). **EN:** A browser extension for working with NetSuite (fork with enhancements over the original project).
+
+| Repositorio | Autor original | Descripción (ES / EN) |
+|:---|:---|:---|
+| [**netsuite-field-explorer-plus**](https://github.com/cristobalmontenegro/netsuite-field-explorer-plus) | Michoel Chaikin | Extensión de Chrome para descubrir los nombres de campo de NetSuite; agrega expandir/colapsar y copiar JSON, y es compatible con Manifest V3. / Chrome extension to discover NetSuite field names, with expand/collapse, JSON copy and Manifest V3 support. |
+
 ---
 
 <a id="-tools"></a>
@@ -186,7 +194,6 @@ If any of my projects has helped you in your daily work and you'd like to suppor
 
 | Repositorio | Autor original | Descripción (ES / EN) |
 |:---|:---|:---|
-| [**netsuite-field-explorer-plus**](https://github.com/cristobalmontenegro/netsuite-field-explorer-plus) | Michoel Chaikin | Extensión de Chrome para descubrir los nombres de campo de NetSuite; agrega expandir/colapsar y copiar JSON, y es compatible con Manifest V3. / Chrome extension to discover NetSuite field names, with expand/collapse, JSON copy and Manifest V3 support. |
 | [**hp42**](https://github.com/cristobalmontenegro/hp42) | richmit | Colección de programas para calculadoras HP-42S, Free42 y DM42. / A collection of programs for HP-42S, Free42 and DM42 calculators. |
 
 ---
