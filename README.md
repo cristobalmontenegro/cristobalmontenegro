@@ -48,7 +48,7 @@ If any of my projects has helped you in your daily work and you'd like to suppor
 | 1 | [🐛 Mantis — Plugins para MantisBT](#-mantis) | 7 plugins para el gestor de incidencias MantisBT |
 | 2 | [🚀 Netsuite — NetSuite Excellence Suite](#-netsuite) | 16 módulos SuiteScript 2.1 (móvil, inventario, finanzas, RFM, auditoría, controles, respaldos) |
 | 3 | [🧰 Tools — Utilidades variadas](#-tools) | Suite de administración Windows, lector de retenciones SRI y visor de PDF |
-| 4 | [🖥️ Action1 Scripts](#-action1-scripts) | 14 scripts PowerShell para automatización y gestión de endpoints Windows con Action1 (RMM) |
+| 4 | [🖥️ Action1 Scripts](#-action1) | 14 scripts PowerShell para automatización y gestión de endpoints Windows con Action1 (RMM) |
 | 5 | [🇪🇨 Dimm-Linux](#-dimm-linux) | DIMM del SRI de Ecuador corriendo en Linux moderno |
 | 6 | [✍️ FirmadorSRI](#-firmadorsri) | Servidor propio de firmado XAdES-BES para el SRI Ecuador (Python + FastAPI + Docker) |
 | 7 | [📊 WebReporter](#-webreporter) | Sistema de reportería y dashboards en PHP + MySQL |
@@ -135,10 +135,10 @@ If any of my projects has helped you in your daily work and you'd like to suppor
 
 ---
 
-<a id="-action1-scripts"></a>
+<a id="-action1"></a>
 ## 🖥️ Action1 Scripts
 
-**[github.com/cristobalmontenegro/action1-scripts](https://github.com/cristobalmontenegro/action1-scripts)** — *PowerShell · Action1 RMM*
+**[github.com/cristobalmontenegro/Action1](https://github.com/cristobalmontenegro/Action1)** — *PowerShell · Action1 RMM*
 
 **ES:** Colección de **14 scripts PowerShell** para automatización, mantenimiento y gestión de endpoints Windows con **Action1** (RMM). Cada script vive en su propia subcarpeta con un **README bilingüe** que documenta qué hace, sus parámetros, sus códigos de salida y sus riesgos. Ideal para despliegues masivos de limpieza, reparación del sistema, software y políticas de Windows.
 
