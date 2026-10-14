@@ -48,12 +48,13 @@ If any of my projects has helped you in your daily work and you'd like to suppor
 | 1 | [🐛 Mantis — Plugins para MantisBT](#-mantis) | 7 plugins para el gestor de incidencias MantisBT |
 | 2 | [🚀 Netsuite — NetSuite Excellence Suite](#-netsuite) | 16 módulos SuiteScript 2.1 (móvil, inventario, finanzas, RFM, auditoría, controles, respaldos) |
 | 3 | [🧰 Tools — Utilidades variadas](#-tools) | Suite de administración Windows, lector de retenciones SRI y visor de PDF |
-| 4 | [🇪🇨 Dimm-Linux](#-dimm-linux) | DIMM del SRI de Ecuador corriendo en Linux moderno |
-| 5 | [✍️ FirmadorSRI](#-firmadorsri) | Servidor propio de firmado XAdES-BES para el SRI Ecuador (Python + FastAPI + Docker) |
-| 6 | [📊 WebReporter](#-webreporter) | Sistema de reportería y dashboards en PHP + MySQL |
-| 7 | [🌐 WordPress-Migrator](#-wordpress-migrator) | Migrador interactivo de WordPress entre dominios y hostings |
-| 8 | [🧩 Apps y utilidades](#apps-utilidades) | Firmador portable, gestor de música MP3, sistema de respaldo a Blu-ray/DVD/CD y juegos HTML |
-| 9 | [🔱 Forks y contribuciones](#-forks-y-contribuciones--forks--contributions) | Mejoras a proyectos de terceros |
+| 4 | [🖥️ Action1 Scripts](#-action1-scripts) | 14 scripts PowerShell para automatización y gestión de endpoints Windows con Action1 (RMM) |
+| 5 | [🇪🇨 Dimm-Linux](#-dimm-linux) | DIMM del SRI de Ecuador corriendo en Linux moderno |
+| 6 | [✍️ FirmadorSRI](#-firmadorsri) | Servidor propio de firmado XAdES-BES para el SRI Ecuador (Python + FastAPI + Docker) |
+| 7 | [📊 WebReporter](#-webreporter) | Sistema de reportería y dashboards en PHP + MySQL |
+| 8 | [🌐 WordPress-Migrator](#-wordpress-migrator) | Migrador interactivo de WordPress entre dominios y hostings |
+| 9 | [🧩 Apps y utilidades](#apps-utilidades) | Firmador portable, gestor de música MP3, sistema de respaldo a Blu-ray/DVD/CD y juegos HTML |
+| 10 | [🔱 Forks y contribuciones](#-forks-y-contribuciones--forks--contributions) | Mejoras a proyectos de terceros |
 
 ---
 
@@ -131,6 +132,26 @@ If any of my projects has helped you in your daily work and you'd like to suppor
 | [**LectorRetenciones**](https://github.com/cristobalmontenegro/Tools/tree/main/LectorRetenciones) | HTML | Lector de comprobantes de retención (SRI Ecuador) en una página web. / Web-based reader for withholding tax receipts (SRI Ecuador). |
 | [**FlippingBook**](https://github.com/cristobalmontenegro/Tools/tree/main/FlippingBook) | HTML/JS | Visor de PDF con efecto de libro de páginas (basado en turn.js y pdf.js). / PDF viewer with a page-flip book effect (turn.js + pdf.js). |
 | [**actualizar.sh**](https://github.com/cristobalmontenegro/Tools/blob/main/actualizar.sh) | Bash | Script de actualización integral del sistema (APT, Snap, Flatpak, firmware y herramientas). / One-shot system update script (APT, Snap, Flatpak, firmware and tools). |
+
+---
+
+<a id="-action1-scripts"></a>
+## 🖥️ Action1 Scripts
+
+**[github.com/cristobalmontenegro/action1-scripts](https://github.com/cristobalmontenegro/action1-scripts)** — *PowerShell · Action1 RMM*
+
+**ES:** Colección de **14 scripts PowerShell** para automatización, mantenimiento y gestión de endpoints Windows con **Action1** (RMM). Cada script vive en su propia subcarpeta con un **README bilingüe** que documenta qué hace, sus parámetros, sus códigos de salida y sus riesgos. Ideal para despliegues masivos de limpieza, reparación del sistema, software y políticas de Windows.
+
+**EN:** A collection of **14 PowerShell scripts** for Windows endpoint automation, maintenance and management with **Action1** (RMM). Each script lives in its own subfolder with a **bilingual README** documenting what it does, its parameters, its exit codes and its risks. Great for fleet-wide rollouts of cleanup, system repair, software and Windows policies.
+
+| Categoría | Scripts | Descripción (ES / EN) |
+|:---|:---:|:---|
+| [**maintenance**](https://github.com/cristobalmontenegro/action1-scripts/tree/main/scripts/maintenance) | 4 | Limpieza, diagnóstico y reparación del sistema (temporales, `.lnk` rotos, CHKDSK, SFC, DISM). / Cleanup, diagnostics and system repair (temp files, broken `.lnk`, CHKDSK, SFC, DISM). |
+| [**chocolatey**](https://github.com/cristobalmontenegro/action1-scripts/tree/main/scripts/chocolatey) | 2 | Actualización masiva con `choco upgrade all` y atributo personalizado de inventario. / Mass upgrade with `choco upgrade all` and an inventory custom attribute. |
+| [**installers**](https://github.com/cristobalmontenegro/action1-scripts/tree/main/scripts/installers) | 3 | Instalación/actualización de FluentCleaner (WinGet), FluentTweaker (GitHub) y FirmaEC. / Install/update of FluentCleaner (WinGet), FluentTweaker (GitHub) and FirmaEC. |
+| [**policies**](https://github.com/cristobalmontenegro/action1-scripts/tree/main/scripts/policies) | 2 | Bloqueo de cuentas Microsoft + OneDrive y desactivación de OOBE/SCOOBE. / Block Microsoft accounts + OneDrive and disable OOBE/SCOOBE. |
+| [**boot**](https://github.com/cristobalmontenegro/action1-scripts/tree/main/scripts/boot) | 2 | Control del arranque: Modo Seguro con red (persistente) y menú F8 heredado. / Boot control: Safe Mode with networking (persistent) and the legacy F8 menu. |
+| [**reporting**](https://github.com/cristobalmontenegro/action1-scripts/tree/main/scripts/reporting) | 1 | Atributo personalizado `LowDisk` para alertas de poco espacio en disco. / `LowDisk` custom attribute for low-disk warnings. |
 
 ---
 
