@@ -51,7 +51,7 @@ If any of my projects has helped you in your daily work and you'd like to suppor
 | 4 | [🇪🇨 Dimm-Linux](#-dimm-linux) | DIMM del SRI de Ecuador corriendo en Linux moderno |
 | 5 | [📊 WebReporter](#-webreporter) | Sistema de reportería y dashboards en PHP + MySQL |
 | 6 | [🌐 WordPress-Migrator](#-wordpress-migrator) | Migrador interactivo de WordPress entre dominios y hostings |
-| 7 | [🧩 Apps y utilidades](#apps-utilidades) | Firmador portable, gestor de música MP3 y juegos HTML |
+| 7 | [🧩 Apps y utilidades](#apps-utilidades) | Firmador portable (fecha/hora personalizable), gestor de música MP3 y juegos HTML |
 | 8 | [🔱 Forks y contribuciones](#-forks-y-contribuciones--forks--contributions) | Mejoras a proyectos de terceros |
 
 ---
@@ -167,9 +167,9 @@ If any of my projects has helped you in your daily work and you'd like to suppor
 
 ### ✍️ [FirmaEcmc](https://github.com/cristobalmontenegro/FirmaEcmc) — *Java 8 · Windows / Linux / macOS*
 
-**ES:** Paquete **portable** del firmador de documentos electrónicos de Ecuador (FirmaEC) con **JRE embebido** y lanzadores para Windows y Linux/macOS, para firmar **sin instalar Java**. Es un fork y reempaquetado del firmador original, con crédito a su autor.
+**ES:** Paquete **portable** del firmador de documentos electrónicos de Ecuador (FirmaEC), con **JRE embebido** y lanzadores para Windows y Linux/macOS, para firmar **sin instalar Java**. Su gran diferencia: **permite firmar con una fecha y hora personalizadas, incluso anteriores a hoy**. Fork y reempaquetado del firmador original, con crédito a su autor.
 
-**EN:** A **portable** package of Ecuador's electronic document signer (FirmaEC) with an **embedded JRE** and launchers for Windows and Linux/macOS, so you can sign **without installing Java**. A fork/repackaging of the original signer, crediting its author.
+**EN:** A **portable** package of Ecuador's electronic document signer (FirmaEC), with an **embedded JRE** and launchers for Windows and Linux/macOS, so you can sign **without installing Java**. Its big difference: **you can sign with a custom date and time, including dates earlier than today**. A fork/repackaging of the original signer, crediting its author.
 
 ### 🎵 [music-manager](https://github.com/cristobalmontenegro/music-manager) — *Bash · Python*
 
