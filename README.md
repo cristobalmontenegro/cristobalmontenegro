@@ -126,7 +126,7 @@ If any of my projects has helped you in your daily work and you'd like to suppor
 
 | Proyecto | Tecnología | Descripción (ES / EN) |
 |:---|:---|:---|
-| [**SuperScriptcmc**](https://github.com/cristobalmontenegro/Tools/tree/main/SuperScriptcmc) | PowerShell | Suite interactiva para Windows: gestión de usuarios, debloat, despliegue de software con GUI (Chocolatey), tareas programadas y configuración de red. / Interactive Windows admin suite: users, debloat, GUI software deployment, scheduled tasks and network setup. |
+| [**SuperScriptcmc**](https://github.com/cristobalmontenegro/Tools/tree/main/SuperScriptcmc) | PowerShell | Suite interactiva para Windows (v11.0): gestión de usuarios, debloat, despliegue de software con GUI (Chocolatey), tareas programadas, formato regional/idioma es-EC y configuración de red. / Interactive Windows admin suite (v11.0): users, debloat, GUI software deployment, scheduled tasks, es-EC region/language setup and network config. |
 | [**LectorRetenciones**](https://github.com/cristobalmontenegro/Tools/tree/main/LectorRetenciones) | HTML | Lector de comprobantes de retención (SRI Ecuador) en una página web. / Web-based reader for withholding tax receipts (SRI Ecuador). |
 | [**FlippingBook**](https://github.com/cristobalmontenegro/Tools/tree/main/FlippingBook) | HTML/JS | Visor de PDF con efecto de libro de páginas (basado en turn.js y pdf.js). / PDF viewer with a page-flip book effect (turn.js + pdf.js). |
 | [**actualizar.sh**](https://github.com/cristobalmontenegro/Tools/blob/main/actualizar.sh) | Bash | Script de actualización integral del sistema (APT, Snap, Flatpak, firmware y herramientas). / One-shot system update script (APT, Snap, Flatpak, firmware and tools). |
