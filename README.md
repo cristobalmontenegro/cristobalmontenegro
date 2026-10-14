@@ -260,3 +260,16 @@ If any of my projects has helped you in your daily work and you'd like to suppor
 </p>
 
 <meta name="google-site-verification" content="IHHqRg-yt7K-NvhsAk2NEfonN49Ypb2DZpWoKYgNyQ8" />
+
+---
+
+## 👤 Author / Autoría
+
+**Cristóbal Montenegro**  
+GitHub: [@cristobalmontenegro](https://github.com/cristobalmontenegro)
+
+---
+
+## 📜 License / Licencia
+
+MIT — see [`LICENSE`](./LICENSE).
