@@ -46,7 +46,7 @@ If any of my projects has helped you in your daily work and you'd like to suppor
 | # | Proyecto / Project | Descripción |
 |:-:|:---|:---|
 | 1 | [🐛 Mantis — Plugins para MantisBT](#-mantis) | 7 plugins para el gestor de incidencias MantisBT |
-| 2 | [🚀 Netsuite — NetSuite Excellence Suite](#-netsuite) | 8 módulos SuiteScript 2.1 (móvil, inventario, finanzas, RFM, respaldos) |
+| 2 | [🚀 Netsuite — NetSuite Excellence Suite](#-netsuite) | 16 módulos SuiteScript 2.1 (móvil, inventario, finanzas, RFM, auditoría, controles, respaldos) |
 | 3 | [🧰 Tools — Utilidades variadas](#-tools) | Suite de administración Windows, lector de retenciones SRI y visor de PDF |
 | 4 | [🇪🇨 Dimm-Linux](#-dimm-linux) | DIMM del SRI de Ecuador corriendo en Linux moderno |
 | 5 | [📊 WebReporter](#-webreporter) | Sistema de reportería y dashboards en PHP + MySQL |
@@ -82,19 +82,27 @@ If any of my projects has helped you in your daily work and you'd like to suppor
 
 **[github.com/cristobalmontenegro/Netsuite](https://github.com/cristobalmontenegro/Netsuite)** — *NetSuite · SuiteScript 2.1*
 
-**ES:** *NetSuite Excellence Suite (Edición Comunitaria)* — colección de scripts y módulos de grado profesional para extender NetSuite más allá de sus límites estándar. Cada módulo es independiente y desplegable por separado.
+**ES:** *NetSuite Excellence Suite (Edición Comunitaria)* — colección de scripts y módulos de grado profesional para extender NetSuite más allá de sus límites estándar. Son **16 módulos independientes**, cada uno desplegable por separado y con su propio README y **guía de implementación paso a paso**.
 
-**EN:** *NetSuite Excellence Suite (Community Edition)* — a curated collection of professional-grade scripts and modules that extend NetSuite beyond standard limits. Each module is independent and deployable on its own.
+**EN:** *NetSuite Excellence Suite (Community Edition)* — a curated collection of professional-grade scripts and modules that extend NetSuite beyond standard limits. **16 independent modules**, each deployable on its own and shipping with its own README and **step-by-step implementation guide**.
 
 | Módulo | Tecnología | Descripción (ES / EN) |
 |:---|:---|:---|
-| [**Mobile_Suite**](https://github.com/cristobalmontenegro/Netsuite/tree/main/Mobile_Suite) | Suitelet | UI móvil para fuerza de ventas: visitas, pedidos, portal, stock, casos y aging. / Mobile field-force UI: visits, orders, portal, stock, cases and aging. |
-| [**SFTP_Foundation**](https://github.com/cristobalmontenegro/Netsuite/tree/main/SFTP_Foundation) | RESTlet + Python | Respaldo y sincronización del File Cabinet a servidores externos (recuperación ante desastres). / File Cabinet backup & sync to external servers. |
-| [**RFM_Engine**](https://github.com/cristobalmontenegro/Netsuite/tree/main/RFM_Engine) | Scheduled + SuiteQL | Segmentación de clientes por Recencia, Frecuencia y Monto, con ranking 1–5. / Customer segmentation by Recency, Frequency and Monetary value. |
+| [**RFM_Engine**](https://github.com/cristobalmontenegro/Netsuite/tree/main/RFM_Engine) | Scheduled (3) | Segmentación de clientes por **7 variables de comportamiento** (R·F·M·P·Z·G·D) con puntaje 0–100, índice DuPont y calificación por letras. / Customer segmentation by **7 behaviour variables** (R·F·M·P·Z·G·D) with a 0–100 score, DuPont index and letter rating. |
 | [**Kardex_Optimizado**](https://github.com/cristobalmontenegro/Netsuite/tree/main/Kardex_Optimizado) | Scheduled + Suitelet | Libro auxiliar de inventarios en tiempo real con indexación avanzada. / Real-time inventory ledger with advanced indexing. |
+| [**Deployment_Audit**](https://github.com/cristobalmontenegro/Netsuite/tree/main/Deployment_Audit) | Suitelet + SuiteQL | Audita todos los Script Deployments: creador, audiencia, allroles y estado. / Audits every Script Deployment: creator, audience, allroles and state. |
+| [**Committed_Stock_Monitor**](https://github.com/cristobalmontenegro/Netsuite/tree/main/Committed_Stock_Monitor) | Suitelet | Encuentra qué bloquea el inventario (cantidades comprometidas) en vivo. / Finds what is blocking inventory (committed quantities) in real time. |
+| [**Mobile_Suite**](https://github.com/cristobalmontenegro/Netsuite/tree/main/Mobile_Suite) | Suitelet (8) | UI móvil para fuerza de ventas: visitas, pedidos, portal, stock, casos y aging. / Mobile field-force UI: visits, orders, portal, stock, cases and aging. |
+| [**SFTP_Foundation**](https://github.com/cristobalmontenegro/Netsuite/tree/main/SFTP_Foundation) | RESTlet + Python | Respaldo y sincronización del File Cabinet a servidores externos (recuperación ante desastres). / File Cabinet backup & sync to external servers (disaster recovery). |
+| [**Fichas_PDF**](https://github.com/cristobalmontenegro/Netsuite/tree/main/Fichas_PDF) | Suitelet | Fichas técnicas 360° de Artículos y Clientes en PDF. / 360° Item & Customer PDF data sheets. |
 | [**Inventory_Reports**](https://github.com/cristobalmontenegro/Netsuite/tree/main/Inventory_Reports) | PDF/XML | Impresiones PDF personalizadas para operaciones de almacén. / Custom PDF printouts for warehouse operations. |
 | [**Accounting_Vouchers**](https://github.com/cristobalmontenegro/Netsuite/tree/main/Accounting_Vouchers) | PDF | Comprobantes imprimibles (asientos, pagos, facturas) para cumplimiento contable. / Printable financial vouchers for accounting compliance. |
-| [**Fichas_PDF**](https://github.com/cristobalmontenegro/Netsuite/tree/main/Fichas_PDF) | Suitelet | Fichas técnicas 360° de Artículos y Clientes en PDF. / 360° Item & Customer PDF data sheets. |
+| [**Text_Sanitizer**](https://github.com/cristobalmontenegro/Netsuite/tree/main/Text_Sanitizer) | User Event | Normaliza descripciones y direcciones al guardar (seguro para facturación electrónica). / Normalizes descriptions & addresses on save (e-invoicing safe). |
+| [**Reopen_Transaction**](https://github.com/cristobalmontenegro/Netsuite/tree/main/Reopen_Transaction) | User Event + Suitelet | Reabre transacciones cerradas que la UI bloquea. / Reopens closed transactions the UI blocks. |
+| [**Lock_Units_Field**](https://github.com/cristobalmontenegro/Netsuite/tree/main/Lock_Units_Field) | Client Script | Vuelve de solo lectura el campo "Unidades" de la línea. / Makes the line "Units" field read-only. |
+| [**Inbound_Shipment_Gate**](https://github.com/cristobalmontenegro/Netsuite/tree/main/Inbound_Shipment_Gate) | User Event + Client | Exige "costos completos" antes de recibir un Inbound Shipment. / Requires "costs complete" before receiving an Inbound Shipment. |
+| [**Sales_Budget_Guard**](https://github.com/cristobalmontenegro/Netsuite/tree/main/Sales_Budget_Guard) | User Event | Bloquea presupuestos duplicados Vendedor + Período + Clasificación. / Blocks duplicate Seller + Period + Classification budgets. |
+| [**Purchase_Invoice_Comparator**](https://github.com/cristobalmontenegro/Netsuite/tree/main/Purchase_Invoice_Comparator) | Suitelet | Concilia el TXT de facturas recibidas vs Vendor Bills (clave de acceso). / Reconciles received-invoice TXT vs Vendor Bills (access key). |
 | [**Inventory_Utilities**](https://github.com/cristobalmontenegro/Netsuite/tree/main/Inventory_Utilities) | Suitelet | Herramientas de mantenimiento, p. ej. corrección de lotes negativos. / Maintenance tools, e.g. negative lot correction. |
 
 ### 🧩 Herramienta relacionada / Related tool
