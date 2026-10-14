@@ -146,12 +146,14 @@ If any of my projects has helped you in your daily work and you'd like to suppor
 
 | Categoría | Scripts | Descripción (ES / EN) |
 |:---|:---:|:---|
-| [**maintenance**](https://github.com/cristobalmontenegro/action1-scripts/tree/main/scripts/maintenance) | 4 | Limpieza, diagnóstico y reparación del sistema (temporales, `.lnk` rotos, CHKDSK, SFC, DISM). / Cleanup, diagnostics and system repair (temp files, broken `.lnk`, CHKDSK, SFC, DISM). |
-| [**chocolatey**](https://github.com/cristobalmontenegro/action1-scripts/tree/main/scripts/chocolatey) | 2 | Actualización masiva con `choco upgrade all` y atributo personalizado de inventario. / Mass upgrade with `choco upgrade all` and an inventory custom attribute. |
-| [**installers**](https://github.com/cristobalmontenegro/action1-scripts/tree/main/scripts/installers) | 3 | Instalación/actualización de FluentCleaner (WinGet), FluentTweaker (GitHub) y FirmaEC. / Install/update of FluentCleaner (WinGet), FluentTweaker (GitHub) and FirmaEC. |
-| [**policies**](https://github.com/cristobalmontenegro/action1-scripts/tree/main/scripts/policies) | 2 | Bloqueo de cuentas Microsoft + OneDrive y desactivación de OOBE/SCOOBE. / Block Microsoft accounts + OneDrive and disable OOBE/SCOOBE. |
-| [**boot**](https://github.com/cristobalmontenegro/action1-scripts/tree/main/scripts/boot) | 2 | Control del arranque: Modo Seguro con red (persistente) y menú F8 heredado. / Boot control: Safe Mode with networking (persistent) and the legacy F8 menu. |
-| [**reporting**](https://github.com/cristobalmontenegro/action1-scripts/tree/main/scripts/reporting) | 1 | Atributo personalizado `LowDisk` para alertas de poco espacio en disco. / `LowDisk` custom attribute for low-disk warnings. |
+| 🔧 **maintenance** | 4 | Limpieza, diagnóstico y reparación del sistema (temporales, `.lnk` rotos, CHKDSK, SFC, DISM). / Cleanup, diagnostics and system repair (temp files, broken `.lnk`, CHKDSK, SFC, DISM). |
+| 🍫 **chocolatey** | 2 | Actualización masiva con `choco upgrade all` y atributo personalizado de inventario. / Mass upgrade with `choco upgrade all` and an inventory custom attribute. |
+| 📦 **installers** | 3 | Instalación/actualización de FluentCleaner (WinGet), FluentTweaker (GitHub) y FirmaEC. / Install/update of FluentCleaner (WinGet), FluentTweaker (GitHub) and FirmaEC. |
+| 🛡️ **policies** | 2 | Bloqueo de cuentas Microsoft + OneDrive y desactivación de OOBE/SCOOBE. / Block Microsoft accounts + OneDrive and disable OOBE/SCOOBE. |
+| 🚀 **boot** | 2 | Control del arranque: Modo Seguro con red (persistente) y menú F8 heredado. / Boot control: Safe Mode with networking (persistent) and the legacy F8 menu. |
+| 💾 **reporting** | 1 | Atributo personalizado `LowDisk` para alertas de poco espacio en disco. / `LowDisk` custom attribute for low-disk warnings. |
+
+> **Nota / Note (ES):** los 14 scripts están publicados directamente en la raíz del repo (estructura plana, sin carpeta `scripts/` intermedia). El README raíz lista todos con tabla de descripción, parámetros y reinicio. **(EN):** all 14 scripts live directly in the repo root (flat structure, no intermediate `scripts/` folder). The root README lists them all with a description / parameters / reboot table.
 
 ---
 
