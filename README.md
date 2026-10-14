@@ -49,10 +49,11 @@ If any of my projects has helped you in your daily work and you'd like to suppor
 | 2 | [🚀 Netsuite — NetSuite Excellence Suite](#-netsuite) | 16 módulos SuiteScript 2.1 (móvil, inventario, finanzas, RFM, auditoría, controles, respaldos) |
 | 3 | [🧰 Tools — Utilidades variadas](#-tools) | Suite de administración Windows, lector de retenciones SRI y visor de PDF |
 | 4 | [🇪🇨 Dimm-Linux](#-dimm-linux) | DIMM del SRI de Ecuador corriendo en Linux moderno |
-| 5 | [📊 WebReporter](#-webreporter) | Sistema de reportería y dashboards en PHP + MySQL |
-| 6 | [🌐 WordPress-Migrator](#-wordpress-migrator) | Migrador interactivo de WordPress entre dominios y hostings |
-| 7 | [🧩 Apps y utilidades](#apps-utilidades) | Firmador portable, gestor de música MP3, sistema de respaldo a Blu-ray/DVD/CD y juegos HTML |
-| 8 | [🔱 Forks y contribuciones](#-forks-y-contribuciones--forks--contributions) | Mejoras a proyectos de terceros |
+| 5 | [✍️ FirmadorSRI](#-firmadorsri) | Servidor propio de firmado XAdES-BES para el SRI Ecuador (Python + FastAPI + Docker) |
+| 6 | [📊 WebReporter](#-webreporter) | Sistema de reportería y dashboards en PHP + MySQL |
+| 7 | [🌐 WordPress-Migrator](#-wordpress-migrator) | Migrador interactivo de WordPress entre dominios y hostings |
+| 8 | [🧩 Apps y utilidades](#apps-utilidades) | Firmador portable, gestor de música MP3, sistema de respaldo a Blu-ray/DVD/CD y juegos HTML |
+| 9 | [🔱 Forks y contribuciones](#-forks-y-contribuciones--forks--contributions) | Mejoras a proyectos de terceros |
 
 ---
 
@@ -141,6 +142,17 @@ If any of my projects has helped you in your daily work and you'd like to suppor
 **ES:** Migración completa de **DIMM** (*Declaración de Impuestos y Manejo de Módulos*), el software de declaración de impuestos del **SRI de Ecuador**, para que funcione en **Linux moderno**. Resuelve la incompatibilidad de la aplicación Eclipse 3.3 (2007) con Java 21, los fallos de SWT/GTK y reimplementa el sitio de actualizaciones caído del SRI para instalar plugins (ATS, RDEP, ICE, ADI y más) por Internet.
 
 **EN:** A full port of **DIMM**, the tax filing software of Ecuador's **SRI**, so it runs on **modern Linux**. It solves the incompatibilities of the 2007 Eclipse 3.3 application with Java 21 and SWT/GTK, and re-implements the now-defunct SRI update site so that plugins (ATS, RDEP, ICE, ADI, etc.) can be installed over the Internet.
+
+---
+
+<a id="-firmadorsri"></a>
+## ✍️ FirmadorSRI
+
+**[github.com/cristobalmontenegro/FirmadorSRI](https://github.com/cristobalmontenegro/FirmadorSRI)** — *Python 3.12 · FastAPI · Docker · XAdES-BES*
+
+**ES:** Servidor propio de **firmado electrónico XAdES-BES** para los comprobantes del **SRI Ecuador** (facturas, notas de crédito/débito, guías de remisión, retenciones y liquidaciones de compra). Es **autocontenido y agnóstico** del sistema que lo consume: cualquier ERP o backend le envía el XML en Base64 y recibe el documento firmado, listo para el SRI. Incluye validación XSD opcional con los esquemas oficiales, dos modos de certificado, Docker y una suite de verificación criptográfica.
+
+**EN:** A self-hosted **XAdES-BES signing server** for Ecuador's **SRI** e-invoices (invoices, credit/debit notes, waybills, withholding receipts and purchase settlements). It is **self-contained and agnostic** to the consuming system: any ERP or backend posts the Base64 XML and gets the signed document back, ready for the SRI. Includes optional XSD validation with the official schemas, two certificate modes, Docker and a cryptographic verification suite.
 
 ---
 
