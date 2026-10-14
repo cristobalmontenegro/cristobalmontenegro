@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/cristobalmontenegro?tab=repositories"><img alt="Repositorios" src="https://img.shields.io/badge/Repositorios-12-181717?style=flat&logo=github"></a>
+  <a href="https://github.com/cristobalmontenegro?tab=repositories"><img alt="Repositorios" src="https://img.shields.io/badge/Repositorios-13-181717?style=flat&logo=github"></a>
   <img alt="MantisBT" src="https://img.shields.io/badge/MantisBT-Plugins-8DB93E?style=flat">
   <img alt="NetSuite" src="https://img.shields.io/badge/NetSuite-SuiteScript%202.1-1F6FEB?style=flat">
   <img alt="PHP" src="https://img.shields.io/badge/PHP-7.4%2B-777BB4?style=flat&logo=php&logoColor=white">
@@ -51,7 +51,7 @@ If any of my projects has helped you in your daily work and you'd like to suppor
 | 4 | [🇪🇨 Dimm-Linux](#-dimm-linux) | DIMM del SRI de Ecuador corriendo en Linux moderno |
 | 5 | [📊 WebReporter](#-webreporter) | Sistema de reportería y dashboards en PHP + MySQL |
 | 6 | [🌐 WordPress-Migrator](#-wordpress-migrator) | Migrador interactivo de WordPress entre dominios y hostings |
-| 7 | [🧩 Apps y utilidades](#apps-utilidades) | Firmador portable (fecha/hora personalizable), gestor de música MP3 y juegos HTML |
+| 7 | [🧩 Apps y utilidades](#apps-utilidades) | Firmador portable, gestor de música MP3, sistema de respaldo a Blu-ray/DVD/CD y juegos HTML |
 | 8 | [🔱 Forks y contribuciones](#-forks-y-contribuciones--forks--contributions) | Mejoras a proyectos de terceros |
 
 ---
@@ -184,6 +184,12 @@ If any of my projects has helped you in your daily work and you'd like to suppor
 **ES:** Suite de scripts para **descargar, organizar, renombrar y depurar** tu biblioteca musical MP3 desde Spotify. Incluye detección perceptual de duplicados (Chromaprint/AcoustID), metadatos con `eyeD3` y menú interactivo.
 
 **EN:** A Bash/Python suite to **download, organize, rename and clean up** your MP3 music library from Spotify. Includes perceptual duplicate detection (Chromaprint/AcoustID), `eyeD3` tag handling and an interactive menu.
+
+### 💾 [organizar-backups](https://github.com/cristobalmontenegro/organizar-backups) — *Bash*
+
+**ES:** Sistema de respaldo, compresión, verificación y quema a discos (Blu-ray/DVD/CD) desde la terminal. Sustituye ~26 scripts sueltos por un único `backup.sh` con menú, perfiles, filtros, *pull* por SSH, empaquetado `rar`/`7z`, verificación `sha256`, ejecución en segundo plano y avisos por correo.
+
+**EN:** A terminal backup, compression, verification and optical-disc burning system (Blu-ray/DVD/CD). It replaces ~26 loose scripts with a single `backup.sh` featuring a menu, profiles, filters, SSH pull, `rar`/`7z` packing, `sha256` verification, background jobs and email alerts.
 
 ### 🎮 [JuegosHTML](https://github.com/cristobalmontenegro/JuegosHTML) — *HTML5 · CSS3 · JavaScript*
 
